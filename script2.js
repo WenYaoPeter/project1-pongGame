@@ -102,7 +102,7 @@ window.onload = function() {
 
   //Game Title
   gameTitle = document.createElement('h2');
-  gameTitle.textContent = 'KuKu Game';
+  gameTitle.textContent = 'The Pong Game';
   body.appendChild(gameTitle);
   var kukuBird = document.getElementsByTagName('img')[0];
   gameTitle.appendChild(kukuBird);
