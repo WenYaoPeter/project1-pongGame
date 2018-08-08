@@ -88,8 +88,9 @@ window.onload = function() {
           alert("Please Enter Player 2's Name");
           startGameScreen = true;
        } else {
-            var framesPerSecond = 30;
-            setInterval(function() {
+         alert("Player 1: W - move up, S - move down. Player 2: O - move up, L - move down");
+         var framesPerSecond = 30;
+         setInterval(function() {
                 move();    //move the ball
                 drawAll(); //draw all items
                 //moveDummyBalls();
