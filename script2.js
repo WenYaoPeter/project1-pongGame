@@ -105,8 +105,8 @@ window.onload = function() {
   gameTitle = document.createElement('h2');
   gameTitle.textContent = 'The Pong Game';
   body.appendChild(gameTitle);
-  var kukuBird = document.getElementsByTagName('img')[0];
-  gameTitle.appendChild(kukuBird);
+  // var kukuBird = document.getElementsByTagName('img')[0];
+  // gameTitle.appendChild(kukuBird);
   body.insertBefore(gameTitle, document.body.children[0]);
   gameTitle.style.fontFamily = "Indie Flower, cursive"
 
